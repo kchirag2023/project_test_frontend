@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import Toastify from 'toastify-js';
 
-const url = process.env.REACT_APP_API_URL;
+const url = "projecttestbackend-production.up.railway.app";
 function Home() {
   const [Vdata, setData] = useState([]);
   const [filterData, setFilterData] = useState([]);
