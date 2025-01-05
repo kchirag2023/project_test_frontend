@@ -2,8 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import Toastify from 'toastify-js';
 
-const url = "http://localhost:2020/api";
-
+const url = process.env.REACT_APP_API_URL;
 function Home() {
   const [Vdata, setData] = useState([]);
   const [filterData, setFilterData] = useState([]);
