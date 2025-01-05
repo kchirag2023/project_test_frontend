@@ -2,7 +2,7 @@ import axios from 'axios';
 import React, { useState } from 'react';
 import Toastify from 'toastify-js';
 
-const url = "projecttestbackend-production.up.railway.app/api";
+const url = "https://projecttestbackend-production.up.railway.app/api";
 function Home() {
   const [Vdata, setData] = useState([]);
   const [filterData, setFilterData] = useState([]);
